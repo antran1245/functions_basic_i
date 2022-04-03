@@ -70,22 +70,22 @@
 # # Log 7, Log 14, Log 21
 
 # #10
-def addition(b,c):
-    return b+c
-    return 10
-print(addition(3,5))
-# Log 8
+# def addition(b,c):
+#     return b+c
+#     return 10
+# print(addition(3,5))
+# # Log 8
 
 # #11
-# b = 500
-# print(b)
-# def foobar():
-#     b = 300
-#     print(b)
-# print(b)
-# foobar()
-# print(b)
-
+b = 500
+print(b)
+def foobar():
+    b = 300
+    print(b)
+print(b)
+foobar()
+print(b)
+# Log 500, Log 500, Log 300, Log 500
 
 # #12
 # b = 500
