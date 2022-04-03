@@ -46,28 +46,28 @@
 # # Log 25
 
 # #8
-def number_of_oceans_or_fingers_or_continents():
-    b = 100
-    print(b)
-    if b < 10:
-        return 5
-    else:
-        return 10
-    return 7
-print(number_of_oceans_or_fingers_or_continents())
-# Log 100 , Log 10
+# def number_of_oceans_or_fingers_or_continents():
+#     b = 100
+#     print(b)
+#     if b < 10:
+#         return 5
+#     else:
+#         return 10
+#     return 7
+# print(number_of_oceans_or_fingers_or_continents())
+# # Log 100 , Log 10
 
 # #9
-# def number_of_days_in_a_week_silicon_or_triangle_sides(b,c):
-#     if b<c:
-#         return 7
-#     else:
-#         return 14
-#     return 3
-# print(number_of_days_in_a_week_silicon_or_triangle_sides(2,3))
-# print(number_of_days_in_a_week_silicon_or_triangle_sides(5,3))
-# print(number_of_days_in_a_week_silicon_or_triangle_sides(2,3) + number_of_days_in_a_week_silicon_or_triangle_sides(5,3))
-
+def number_of_days_in_a_week_silicon_or_triangle_sides(b,c):
+    if b<c:
+        return 7
+    else:
+        return 14
+    return 3
+print(number_of_days_in_a_week_silicon_or_triangle_sides(2,3))
+print(number_of_days_in_a_week_silicon_or_triangle_sides(5,3))
+print(number_of_days_in_a_week_silicon_or_triangle_sides(2,3) + number_of_days_in_a_week_silicon_or_triangle_sides(5,3))
+# Log 7, Log 14, Log 21
 
 # #10
 # def addition(b,c):
