@@ -19,19 +19,19 @@
 
 
 # #4
-def number_of_fingers():
-    return 5
-    print(10)
-print(number_of_fingers())
+# def number_of_fingers():
+#     return 5
+#     print(10)
+# print(number_of_fingers())
 # Log 5 causue never reach print(10)
 
 
 # #5
-# def number_of_great_lakes():
-#     print(5)
-# x = number_of_great_lakes()
-# print(x)
-
+def number_of_great_lakes():
+    print(5)
+x = number_of_great_lakes()
+print(x)
+# Log 5 then Log nothing
 
 # #6
 # def add(b,c):
