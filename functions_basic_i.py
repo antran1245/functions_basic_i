@@ -2,20 +2,20 @@
 # def number_of_food_groups():
 #     return 5
 # print(number_of_food_groups())
-# Log 5
+# # Log 5
 
 # #2
 # def number_of_military_branches():
 #     return 5
 # print(number_of_days_in_a_week_silicon_or_triangle_sides() + number_of_military_branches())
-# Error because of no function call number_of_days_in_a_week_silicon_or_triangle_sides()
+# # Error because of no function call number_of_days_in_a_week_silicon_or_triangle_sides()
 
 # #3
 # def number_of_books_on_hold():
 #     return 5
 #     return 10
 # print(number_of_books_on_hold())
-# Log 5
+# # Log 5
 
 
 # #4
@@ -23,7 +23,7 @@
 #     return 5
 #     print(10)
 # print(number_of_fingers())
-# Log 5 causue never reach print(10)
+# # Log 5 causue never reach print(10)
 
 
 # #5
@@ -31,19 +31,19 @@
 #     print(5)
 # x = number_of_great_lakes()
 # print(x)
-# Log 5 then Log nothing
+# # Log 5 then Log nothing
 
 # #6
-def add(b,c):
-    print(b+c)
-print(add(1,2) + add(2,3))
-# Log 3, Log 5, Log 8
+# def add(b,c):
+#     print(b+c)
+# print(add(1,2) + add(2,3))
+# # Log 3, Log 5, Log Error
 
 # #7
-# def concatenate(b,c):
-#     return str(b)+str(c)
-# print(concatenate(2,5))
-
+def concatenate(b,c):
+    return str(b)+str(c)
+print(concatenate(2,5))
+# Log 25
 
 # #8
 # def number_of_oceans_or_fingers_or_continents():
