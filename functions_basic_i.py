@@ -40,22 +40,22 @@
 # # Log 3, Log 5, Log Error
 
 # #7
-def concatenate(b,c):
-    return str(b)+str(c)
-print(concatenate(2,5))
-# Log 25
+# def concatenate(b,c):
+#     return str(b)+str(c)
+# print(concatenate(2,5))
+# # Log 25
 
 # #8
-# def number_of_oceans_or_fingers_or_continents():
-#     b = 100
-#     print(b)
-#     if b < 10:
-#         return 5
-#     else:
-#         return 10
-#     return 7
-# print(number_of_oceans_or_fingers_or_continents())
-
+def number_of_oceans_or_fingers_or_continents():
+    b = 100
+    print(b)
+    if b < 10:
+        return 5
+    else:
+        return 10
+    return 7
+print(number_of_oceans_or_fingers_or_continents())
+# Log 100 , Log 10
 
 # #9
 # def number_of_days_in_a_week_silicon_or_triangle_sides(b,c):
