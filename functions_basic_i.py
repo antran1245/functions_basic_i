@@ -11,18 +11,19 @@
 # Error because of no function call number_of_days_in_a_week_silicon_or_triangle_sides()
 
 # #3
-def number_of_books_on_hold():
-    return 5
-    return 10
-print(number_of_books_on_hold())
+# def number_of_books_on_hold():
+#     return 5
+#     return 10
+# print(number_of_books_on_hold())
 # Log 5
 
 
 # #4
-# def number_of_fingers():
-#     return 5
-#     print(10)
-# print(number_of_fingers())
+def number_of_fingers():
+    return 5
+    print(10)
+print(number_of_fingers())
+# Log 5 causue never reach print(10)
 
 
 # #5
