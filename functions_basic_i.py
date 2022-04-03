@@ -7,7 +7,7 @@ print(number_of_food_groups())
 # #2
 def number_of_military_branches():
     return 5
-print(number_of_days_in_a_week_silicon_or_triangle_sides() + number_of_military_branches())
+# print(number_of_days_in_a_week_silicon_or_triangle_sides() + number_of_military_branches())
 # Error because of no function call number_of_days_in_a_week_silicon_or_triangle_sides()
 
 # #3
@@ -36,7 +36,7 @@ print(x)
 # #6
 def add(b,c):
     print(b+c)
-print(add(1,2) + add(2,3))
+# print(add(1,2) + add(2,3))
 # Log 3, Log 5, Log Error
 
 #7
