@@ -101,25 +101,26 @@
 
 
 # #13
-b = 500
-print(b)
-def foobar():
-    b = 300
-    print(b)
-    return b
-print(b)
-b=foobar()
-print(b)
-# Log 500, Log 500, Log 300, Log 300
+# b = 500
+# print(b)
+# def foobar():
+#     b = 300
+#     print(b)
+#     return b
+# print(b)
+# b=foobar()
+# print(b)
+# # Log 500, Log 500, Log 300, Log 300
 
 # #14
-# def foo():
-#     print(1)
-#     bar()
-#     print(2)
-# def bar():
-#     print(3)
-# foo()
+def foo():
+    print(1)
+    bar()
+    print(2)
+def bar():
+    print(3)
+foo()
+# Log 1, Log 3, Log 2
 
 
 # #15
