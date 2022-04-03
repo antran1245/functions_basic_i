@@ -27,17 +27,17 @@
 
 
 # #5
-def number_of_great_lakes():
-    print(5)
-x = number_of_great_lakes()
-print(x)
+# def number_of_great_lakes():
+#     print(5)
+# x = number_of_great_lakes()
+# print(x)
 # Log 5 then Log nothing
 
 # #6
-# def add(b,c):
-#     print(b+c)
-# print(add(1,2) + add(2,3))
-
+def add(b,c):
+    print(b+c)
+print(add(1,2) + add(2,3))
+# Log 3, Log 5, Log 8
 
 # #7
 # def concatenate(b,c):
